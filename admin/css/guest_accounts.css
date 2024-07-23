@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	font-family: "Lato", sans-serif;
+}
+
+div.content {
+	margin-left: 300px;
+	padding: 1px 16px;
+	height: 1000px;
+}
+
+form {
+	z-index:50;
+}
+
+
+.table{
+	width: 100%;
+}
+
+.table thead {
+	background-color: #39A2DB;
+}
+
+.table tbody {
+	background-color: #D3E0EA;
+	text-align: center;
+	font-size: 16px;
+}
+.table thead tr th{
+	font-size: 16px;
+	font-weight: medium;
+	color: black;
+	opacity: 2;
+	padding: 12px;
+	vertical-align: top;
+	border: 1px solid #dee2e685;
+	text-align: center;
+}
+
+table.table-bordered > thead > tr > th{
+	border: 1px solid;
+	border-color:white;
+}
+table.table-bordered > tbody > tr > td{
+	border: 1px solid;
+	border-color:white;
+}
+
+.button {
+	border: none;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 30px 20px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.add-btn { 
+	background-color: #053742;
+	color: white;
+	border: none;
+  	cursor: pointer;
+ 	 border-radius: 5px;
+  	padding: 10px;
+  	margin-left: 8px;
+}
+
+.add-btn a{ 
+	color: white;
+  	text-decoration: none;
+}
+
+.add-btn:hover { 
+	opacity: 0.8;
+}
+
+.add-btn a:hover { 
+	color: white;
+  	text-decoration: none;
+}
+
+.containers {
+  align-items: center;
+  display: inline;
+  margin-right:  10px;
+  margin-bottom: 5px;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+div.card-deck :hover{
+    box-shadow: 0px 8px 8px #B3B6B7;
+    text-decoration: none;
+}
+
+div.card-body {
+	background-color: #F7F9F9 ;
+}
+
+div.card-footer {
+	background-color: #276678;
+}

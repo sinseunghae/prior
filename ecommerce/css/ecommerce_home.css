@@ -1,0 +1,46 @@
+/*MAIN BODY PAGE*/
+/*Sample Banner*/
+.sample-banner {
+  text-align: center;
+}
+
+.sample-banner > img { width: 100%; }
+
+.see-more {
+  color: #000;
+  margin-right: 50px; 
+  margin-top: 25px; 
+  font-size: 15px;
+  font-style: italic;
+  text-align: right;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+
+.product-img {
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product-name {
+  text-align: center;
+  color: #000;
+}
+
+.product-price {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.product-name:hover {
+  color: #39A2DB;
+  text-decoration: underline;
+}
+
+.product-img:hover {
+  opacity: 0.8;
+}

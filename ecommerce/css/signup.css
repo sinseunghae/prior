@@ -1,0 +1,64 @@
+/*SIGN UP*/
+.form-center {
+  max-width: auto;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+table {
+  /*border: 2px solid #4F6D7A;*/
+  border-collapse: collapse;
+  margin: 10px auto;
+  width: 60%;
+  /*background-color: #A2DBFA;*/
+  background-color: #fff;
+}
+
+thead {
+  background-color: #fff;
+  border-bottom: 2px solid #4F6D7A;
+}
+
+
+tr, th, td {
+  padding: 15px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button#cancel-sign {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100% !important;
+}
+
+button#cancel-sign:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

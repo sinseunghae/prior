@@ -1,0 +1,52 @@
+h1 {
+	font-family: 'Halant', serif;
+	font-weight: 100;
+	margin-top: 30px;
+}
+
+select {
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	font-weight: 550;
+	border-style: none;
+	background-color: #E8F0F2;
+}
+
+label {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+
+td.filter-sort {
+	padding-bottom: 40px;
+}
+
+#filter {
+	text-align: right;
+}
+
+.product-img {
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product-name {
+  text-align: center;
+  color: #000;
+}
+
+.product-price {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.product-name:hover {
+  color: #39A2DB;
+  text-decoration: underline;
+}
+
+.product-img:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,82 @@
+.cart-form-center {
+	max-width: auto;
+	margin: auto;
+	padding-bottom: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.title-page { margin: 50px 0; }
+
+.title-page > h4 {
+	font-family: 'Halant', serif;
+	font-size: 26px;
+	padding-bottom: 10px;
+}
+
+.title-page > p a {
+	color: black;
+	text-decoration: underline;
+}
+
+.title-page > p a:hover { color: #39A2DB; }
+
+table {
+	border-collapse: collapse;
+	margin: 10px auto;
+	width: 90%;
+}
+
+thead {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+tbody, tfoot { text-align: center; }
+
+tfoot tr td {
+	border-bottom: none !important;
+	font-weight: bold;
+}
+
+tr td {
+	padding: 15px;
+	border-bottom: solid 1px;
+}
+
+.cart-img { width: 125px; }
+
+input[type='number'] {
+    border: solid 1px;
+    text-align: center;
+    width: 80px;
+}
+
+#act-remove > p a {
+	color: black;
+	text-decoration: underline;
+}
+
+#act-remove > p a:hover {
+	color: grey;
+}
+
+#prod > p a { color: black; }
+
+#prod > p a:hover { text-decoration: underline; }
+
+p#check-out a {
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background-color: #39A2DB;
+	background-size: auto;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 6px;
+}
+
+p#check-out a:hover { background-color: #053742; }

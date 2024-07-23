@@ -1,0 +1,265 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: "Arial", sans-serif;
+}
+
+body{
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.sidebar {
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 320px;
+	background: #053742;
+	padding: 6px 14px;
+	transition: all 0.5s ease;
+}
+
+.sidebar .logo_content .logo {
+	color: #fff;
+	display: flex;
+	height: 40px;
+	width: 90%;
+	align-items: center;
+	opacity: 1;
+	pointer-events: none;
+	transition:all 0.5s ease;
+}
+
+.sidebar .logo_content .logo img{
+	height: 50px;
+}
+
+.logo_content .logo .logo_name {
+	font-size: :20px;
+	font-weight: 400;
+}
+
+.sidebar ul{
+	margin-top: 20px;
+}
+
+.sidebar ul li{
+	position: relative;
+	height: 50px;
+	width:100%;
+	margin: 0 5px;
+	list-style: none; 
+	line-height: 50px;
+}
+
+.sidebar ul li input{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	border-radius: 12px;
+	outline: none;
+	border: none;
+	background: #39A2DB;
+	padding-left: 50px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.sidebar ul li ::placeholder{
+	color: #fff;
+}
+
+.sidebar ul li .bx-search{
+	position: absolute;
+	padding-top: 1px;
+	z-index:99;
+	color: #fff;
+	font-size: 22px;
+	border-radius: 12px;
+	transition: all 0.4s ease;
+}
+
+.sidebar ul li a{
+	color: #fff;
+	display: flex;
+	align-items:center;
+	text-decoration: none;
+	transition: all 0.4s ease;
+	border-radius: 12px;
+	white-space: nowrap;
+}
+
+.sidebar ul li a:hover{
+	color:#053742;
+	background: #fff;
+}
+
+.sidebar ul li i{
+	height: 50px;
+	min-width: 50px;
+	border-radus: 12px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.sidebar .links_name{
+	opacity: 1;
+	pointer-events: none;
+	transition:all 0.5s ease;
+}
+
+.sidebar .profile_content {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	left:0;
+	width: 100%;
+}
+
+.sidebar .profile_content .profile{
+	position: relative;
+	padding: 20px 15px;
+	height: 60px;
+	background: #39A2DB;
+	transition: all 0.5s ease;
+}
+
+.profile_content .profile .profile_details{
+	display: flex;
+	align-items: center;
+	opacity: 1;
+	pointer-events: none;
+	white-space: nowrap;
+}
+
+.profile_content .profile i .bx-user{
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+	border: 5px;
+	border-radius: 12px;
+}
+
+.profile .profile_details .job_position{
+	margin-left: 20px;
+}
+
+.profile .profile_details .job{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.profile #log_out{
+	position: absolute;
+	left: 88%;
+	bottom: 10%;
+	transform:translateX(-50%);
+	min-width: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius:12px;
+	text-align: center;
+	transition: all 0.4s ease;
+	background: #39A2DB;
+}
+
+
+.home_content{
+	position: absolute;
+	height: 100%;
+	width: calc(100% - 60px);
+	left: 200px;
+	margin-top: -180px;
+	transition:all 0.5s ease;
+}
+.home_content .text{
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.containers {
+  align-items: center;
+  display: inline;
+  height: 80vh;
+  margin-right:  10px;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 150px;
+  width: 180px;
+  overflow: hidden;
+  transition: 0.5s;
+  display: inline-block;
+  border-radius: 15px; 
+  border-style: solid;
+  border-color: #276678	;
+  /*    */
+  background: #D3E0EA;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+.card__top {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  height: 150px;
+  width: 170px;
+  background:#D3E0EA;
+  transition: 0.8s;
+  font-size: 13px;
+ 
+}
+
+.col-6{
+	margin-right: 180px;
+	padding-top: 315px;
+	margin-left: 150px;
+}
+
+.banner {
+  background-image: url("https://png.pngitem.com/pimgs/s/3-34550_welcome-png-download-image-blue-welcome-png-transparent.png");
+  height: 30%;
+  border-style: solid;
+  border-color: #276678	;
+  width: 850px;
+  left: 10px;
+  bottom: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+  	font-size: 12px;
+	height: 100%;
+	width: 190px;
+  }
+  .sidebar ul li input {
+  	font-size: 12px;
+  }
+  .profile .profile_details .job {
+  	font-size: 12px;
+  }
+  .profile #log_out{
+  	left: 85%;
+  }
+}
+

@@ -1,0 +1,158 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: "Arial", sans-serif;
+}
+
+body{
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.home_content{
+	padding: 0 10%;
+	margin: 40px auto 0;
+	position: absolute;
+	width: calc(100% - 50px);
+	height: 100%;
+	left: 210px;
+}
+
+form.example{
+	margin: 30px 10px;
+	max-width:300px
+}
+
+form.example input[type=text] {
+	padding: 8px;
+	font-size: 13px;
+	height: 5%;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+
+form.example button {
+	float: left;
+	width: 20%;
+	height: 5%;
+	padding: 8px;
+	background: #2196F3;
+	color: white;
+	font-size: 14px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+form.example button:hover {
+	background: #0b7dda;
+}
+
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.heading{
+	margin-bottom: 40px;
+	font-size: 40px;
+	text-align: center;
+	color: #053742;
+}
+
+.table{
+	width: calc(100% - 60px);
+	border: 1px solid #dee2e685;
+	/*border-collapse: collapse;*/
+}
+
+.table thead {
+	background-color: #39A2DB;
+}
+
+.table thead tr th{
+	font-size: 16px;
+	font-weight: medium;
+	letter-spacing: 0.35px;
+	color: black;
+	opacity: 2;
+	padding: 12px;
+	vertical-align: top;
+	border: 1px solid #dee2e685;
+}
+
+.table tbody tr td{
+	font-size: 16px;
+	letter-spacing: 0.35px;
+	font-weight: normal;
+	color: black;
+	background-color: #D3E0EA;
+	padding: 8px;
+	text-align: center;
+	border: 1px solid #dee2e685;
+}
+
+.table tbody tr td i{
+	height: 25px;
+	width: 25px;
+	opacity: 0.75;
+}
+
+.table tbody tr td i:hover{
+	opacity: 2;
+	/*color:#053742;
+	background: #F6F5F5;
+	border-radius: 5px;s*/
+}
+
+.table tbody tr td a{
+	text-decoration: none;
+	color: black;
+}
+
+.button {
+	border: none;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 30px 20px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.button1 a{
+	text-decoration: none;
+	color: WHITE;
+}
+
+.button1 {
+	background: #2196F3;
+	color: WHITE;
+}
+
+.button1:hover {
+	background: #0b7dda;
+}
+
+@media screen and (max-width: 1024px) {
+	.home_content{
+		left: 30%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.home_content {
+		width: 100%;
+		left: 30%;
+		overflow-y: scroll;
+	}
+}

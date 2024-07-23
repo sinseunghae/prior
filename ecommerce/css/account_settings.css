@@ -1,0 +1,72 @@
+.acc-form-center {
+  max-width: auto;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+  width: 60%;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+thead {
+  border-bottom: solid 1px;
+  background-color: #fff;
+}
+
+thead tr th { padding-top: 20px; padding-left: 15px; }
+
+tbody tr td p a { 
+  padding-top: 20px;
+  color: black; 
+  text-decoration: underline;
+  font-style: italic;
+}
+
+tr, td {
+  padding: 3px 15px;
+}
+
+tbody tr th { font-size: 25px; padding: 15px}
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 13px;
+  color: white;
+  padding: 14px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#save-can { width: 150px; }
+
+.acc-container { padding: 20px; }
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

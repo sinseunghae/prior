@@ -1,0 +1,149 @@
+/*OUTER TABLE 1 APPEARANCE*/
+.pos-center table#outer-tbl-1 {
+  background-color: #053742;
+  border: 6px solid #053742;
+  border-collapse: collapse;
+  width: 100%;
+  height: 90%;
+}
+
+
+
+/*LOGO AND NAME*/
+span.dcdg {
+  font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.logo { width: 35px; }
+
+/*MAIN TABLE STYLE*/
+table#outer-tbl-1 tr td {
+  border: 6px solid #053742;
+  border-collapse: collapse;
+}
+
+
+
+/*LEFT SIDE TABLE STYLE*/
+table#inner1 { 
+  background-color: #fff;
+  border: 6px solid #053742; 
+  border-collapse: collapse; 
+}
+
+thead { background-color: #053742; color: white; }
+.btn-search { width: 15%; }
+.search-input { width: 84%; margin-bottom: 30px; }
+table#inner1 tr td { border: none; padding: 1.5px; }
+
+table#inner1 thead, table#inner1 tbody tr { /*TABLE INSIDE INNER-TBL-1*/
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table#inner1 #inner-tbl-1-body {
+  display: block;
+  height: 500px;
+  overflow-y: auto;
+}
+
+#inner-tbl-1-head { background-color: #39A2DB; color: black; }
+
+#inner1-head { 
+  background-color: #fff; 
+  color: black;
+  border-bottom: solid 3px #053742;
+}
+
+
+table#inner1 #inner-tbl-1-body tr { cursor: pointer;transition: all .25s ease-in-out; }
+table#inner1 #inner-tbl-1-body tr:hover{ background-color: #ddd; }
+
+
+/*RIGHT SIDE TABLE STYLE*/
+/*Table 2*/
+table#inner2 thead { background-color: #39A2DB; color: black; font-weight: bold; }
+table#inner2 #inner-tbl-2-body tr { cursor: pointer;transition: all .25s ease-in-out; }
+table#inner2 #inner-tbl-2-body tr:hover{ background-color: #ddd; }
+
+table#inner2 { 
+  background-color: #fff;
+  border: 6px solid #053742; 
+  border-collapse: collapse; 
+}
+
+table#inner2 tr td { border: none; padding: 5.5px;}
+
+table#inner2 thead, table#inner2 tbody tr { /*TABLE INSIDE INNER-TBL-2*/
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table#inner2 #inner-tbl-2-body {
+    display: block;
+    height: 500px;
+    overflow-y: auto;
+}
+
+table#inner2 thead { border-bottom: solid 1px #053742; }
+
+
+
+/*Table 3*/
+table#inner-tbl-3 { 
+  background-color: #A2DBFA;
+  border: solid #053742;
+  border-top-style: none; border-bottom-style: none;
+  border-left-width: 6px; border-right-width: 6px;
+  border-collapse: collapse;
+  font-weight: bold; 
+}
+
+table#inner-tbl-3 tr td { border: none; padding: 5px; }
+
+
+
+/*Table 4*/
+table#inner-tbl-4 { 
+  background-color: #39A2DB;
+  border: solid #053742;
+  border-width: 6px;
+  border-collapse: collapse; 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+table#inner-tbl-4 tr td { border: none; padding: 5px; }
+
+#total-payment { width: 90%; margin-left: 10%; }
+
+
+
+/*OUTER TABLE 1 APPEARANCE*/
+.pos-center table#outer-tbl-2 {
+  background-color: #E8F0F2;
+  border: solid #053742;
+  border-top-style: none; border-bottom-width: 6px;
+  border-left-width: 6px; border-right-width: 6px;
+  border-collapse: collapse;
+  width: 100%;
+  height: 10%;
+}
+
+table#outer-tbl-2 tr td { padding: 3px; font-size: 20px; text-align: center; }
+
+table#outer-tbl-2 tr td button { 
+  padding-left: 15%; padding-right: 15%; 
+  background-color: #A2DBFA;
+}
+
+table#outer-tbl-2 tr td button:hover { 
+  color: white;
+  background-color: #053742;
+}

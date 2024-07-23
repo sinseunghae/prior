@@ -1,0 +1,82 @@
+.sales-form-center {
+	max-width: 100%;
+	margin: auto;
+	font-family: 'Poppins', sans-serif;
+	background-color: #ffffff;
+}
+
+.sales-head-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table#sales-info {
+	border: solid 1px black;
+	border-collapse: collapse;
+	margin: 10px auto;
+}
+
+table#sales-info thead tr {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table#sales-info tbody { 
+	text-align: center;
+	display: block;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+table#sales-info thead, table#sales-info tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table#sales-info tbody tr td { padding: 10px; /*border-bottom: solid 1px #000;*/ }
+
+table#sales-info thead tr td { padding: 5px; border-bottom: solid 1px; }
+
+.generate-btn { 
+	background-color: #053742;
+	color: white;
+	border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.generate-btn:hover { opacity: 0.8; }
+
+.tab {
+  overflow: hidden;
+  background-color: #A2DBFA;
+}
+
+.tab button.tablinks {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button.tablinks:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #39A2DB;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}

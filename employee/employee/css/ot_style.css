@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	font-family: "Lato", sans-serif;
+}
+
+div.content {
+	margin-left: 300px;
+	padding: 1px 16px;
+	height: 1000px;
+}
+
+form.example{
+	margin: 30px 10px;
+	max-width:300px
+}
+
+form.example input[type=text] {
+	padding: 8px;
+	height:2em;
+	width: 80%;
+	border: 1px solid grey;
+	float: left;
+	background: #f1f1f1;
+}
+
+form.example button {
+	float: left;
+	height:2em;
+	width: 15%;
+	padding: 3.5px;
+	background: #2196F3;
+	color: white;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+form.example button:hover {
+	background: #0b7dda;
+}
+
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.table{
+	width: 100%;
+}
+
+.table thead {
+	background-color: #39A2DB;
+}
+
+.table tbody {
+	background-color: #D3E0EA;
+	text-align: center;
+	font-size: 15px;
+	line-height: 10px;
+}
+.table thead tr th{
+	font-size: 16px;
+	font-weight: medium;
+	letter-spacing: 0.35px;
+	color: black;
+	opacity: 2;
+	padding: 5px;
+	vertical-align: top;
+	border: 1px solid #dee2e685;
+	text-align: center;
+}
+
+table.table-bordered > thead > tr > th{
+	border: 1px solid;
+	border-color:white;
+}
+table.table-bordered > tbody > tr > td{
+	border: 1px solid;
+	border-color:white;
+}
+td.filter-sort {
+	padding-bottom: 40px;
+}
+
+#filter {
+	text-align: right;
+}
+
+.button {
+	border: none;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 30px 20px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.button1 a{
+	text-decoration: none;
+	color: WHITE;
+}
+
+.button1 {
+	background: #2196F3;
+	color: WHITE;
+}
+
+.button1:hover {
+	background: #0b7dda;
+}
+.view {
+   height: 10%;
+   width: 95%;
+   line-height: 15px;
+   border-radius: 3px;
+   border: none;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #1687A7, #276678);
+}
+
+.view:hover {
+  background: linear-gradient(-135deg, #1687A7, #276678);
+}
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {float: left;}
+	div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}

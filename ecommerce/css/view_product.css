@@ -1,0 +1,79 @@
+      .form-center {
+        max-width: auto;
+        margin: auto;
+        padding-bottom: 50px;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 10px auto;
+        width: 60%;
+      }
+
+      thead {
+        border-bottom: solid;
+        border-bottom-width: 1px;
+      }
+
+      tr, th, td {
+        padding: 15px;
+      }
+
+      #buy-add {
+        font-weight: 500;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px auto;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      #buy-add:hover {
+        opacity: 0.8;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      h2, h5, p.desc, label {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      #buy-add {
+        width: 150px;
+      }
+
+      .back-prod {
+        margin: 20px 15px;
+        border: solid 1px;
+        width: 200px;
+        text-align: center;
+      }
+
+      .back-prod > a{
+        color: #000;
+      }
+
+      .back-prod:hover, a:hover {
+        color: #808080;
+      }
+
+      #back-arrow {
+        vertical-align: middle;
+        font-size: 21px;
+        padding-bottom: 2px;
+      }
+
+      #quantity-lbl {
+        font-weight: bold;
+        margin-right: 15px;
+      }
+
+      input[type='number'] {
+        background-color: #E8F0F2;
+        border: solid 1px;
+        text-align: center;
+        width: 80px;
+      }
